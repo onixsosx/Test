@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Devices</key>
+	<dict>
+		<key>Properties</key>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0) Desktop</key>
+			<dict>
+				<key>AAPL,GfxYTile</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>AAPL,ig-platform-id</key>
+				<data>
+				AAAWWQ==
+				</data>
+				<key>device-id</key>
+				<data>
+				JlkAAA==
+				</data>
+				<key>enable-max-pixel-clock-override</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>force-online</key>
+				<data>
+				AQAAAA==
+				</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0) Laptop</key>
+			<dict>
+				<key>AAPL,GfxYTile</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>AAPL,ig-platform-id</key>
+				<data>
+				AAAbWQ==
+				</data>
+				<key>device-id</key>
+				<data>
+				FlkAAA==
+				</data>
+				<key>enable-max-pixel-clock-override</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>force-online</key>
+				<data>
+				AQAAAA==
+				</data>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
