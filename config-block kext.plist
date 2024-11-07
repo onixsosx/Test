@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KernelAndKextPatches</key>
+	<dict>
+		<key>KextsToPatch</key>
+		<array>
+			<dict>
+				<key>#</key>
+				<string>006</string>
+				<key>Comment</key>
+				<string> Atheros40 Disabler - 12-15</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				QWlyUG9ydF9BdGhlcm9zTmV3bWE0MA==
+				</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>MatchOS</key>
+				<string>12.x,13.x,14.x,15.x</string>
+				<key>Name</key>
+				<string>com.apple.driver.AirPort.Atheros40</string>
+				<key>Replace</key>
+				<data>
+				QXRoZXJvc05ld21hNDBEaXNhYmxlcg==
+				</data>
+			</dict>
+			<dict>
+				<key>#</key>
+				<string>018</string>
+				<key>Comment</key>
+				<string>VoodooPS2Keyboard Disabler - 15.x</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				QXBwbGVQUzJLZXlib2FyZA==
+				</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>MatchOS</key>
+				<string>15.x</string>
+				<key>Name</key>
+				<string>as.acidanthera.voodoo.driver.PS2Keyboard</string>
+				<key>Replace</key>
+				<data>
+				QXBwbGVQUzJEaXNhYmxlcg==
+				</data>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
